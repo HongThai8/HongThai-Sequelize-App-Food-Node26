@@ -1,5 +1,5 @@
 const express = require("express");
-const { AppError, handleErrors } = require("../../../tailieu/15-12-2022-11-10-38-source/src/helpers/error");
+const { AppError, handleErrors } = require("../src/helpers/error");
 const {sequelize} = require('./models');
 const app = express();
 app.use(express.json());
